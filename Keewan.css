@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap'); 
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: #202020;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+	color: #CCCCCC;
+}
+
+header li {
+    margin-right: 50px;
+	color: #CCCCCC;
+}
+
+header a {
+    color: #CCCCCC;
+    text-decoration: none;
+    margin: 0 15px;
+	font-weight: bold;
+	font-family: Poppins, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 70px;
+}
+
+main h3{
+	color: #FFFFFF;
+}
+
+#name{
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#bold{
+	font-weight: bold;
+	color: #05B4FF;
+}
+
+.left-side {
+    width: 60%;
+}
+
+.pSpan {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #05B4FF;;
+}
+
+
+.right-side {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+	border: solid black;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #05B4FF;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+	font-weight: bold;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.enlarge-on-hover {
+	transition: transform 0.05s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+	transform: scale(1.1);
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.navlist a {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 25px;
+    transition: all .45s ease;
+}
+
+.navlist a:hover {
+    color: #05B4FF;
+}
+
+.navlist a.active {
+    color: #05B4FF;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+	background-color: #202020;
+}
+
+.flex-item {
+    background-color: black;
+    padding: 20px;
+    flex: 1;
+	border: solid white;
+}
+
+.flex-item h2{
+	color: #05B4FF;
+}
+
+.list {
+    margin-bottom: 2.8rem;
+
+}
+
+.list li {
+    margin-bottom: 12px;
+	color:#202020;
+
+}
+
+.list li a {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    transition: all .45s ease;
+}
+
+.list li a:hover {
+    color: #fff;
+    transform: translateY(5px);
+
+}
